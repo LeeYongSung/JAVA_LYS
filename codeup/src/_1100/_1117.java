@@ -1,14 +1,16 @@
-package _1000;
+package _1100;
 
 import java.util.Scanner;
 
-public class _1059 {
+public class _1117 {
+
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int a = ~sc.nextInt();
+		float a = sc.nextFloat();
+		float b = sc.nextFloat();
 		
-		System.out.println(a);
-		
+		System.out.printf("%.2f",a * b);
 		sc.close();
 	}
+	
 }
