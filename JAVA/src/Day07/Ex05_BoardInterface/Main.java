@@ -4,7 +4,7 @@ import java.util.Date;
 import java.util.Scanner;
 
 /**
- * 게시판 ㅍ로그램
+ * 게시판 프로그램
  *  - 메뉴판
  *  - 게시글 목록
  *  - 게시글 읽기
