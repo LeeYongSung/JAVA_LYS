@@ -9,9 +9,9 @@ public class UserList {
 	public static void main(String[] args) {
 		
 		User user1 = new User("1", "김조은", 13);
-		User user2 = new User("2", "이조은", 25);
-		User user3 = new User("3", "박조은", 27);
-		User user4 = new User("4", "최조은", 24);
+		User user2 = new User("2", "이조은", 15);
+		User user3 = new User("3", "박조은", 13);
+		User user4 = new User("4", "최조은", 13);
 		User user5 = new User("5", "강조은", 15);
 		User user6 = new User("6", "구조은", 31);
 		User user7 = new User("7", "정조은", 31);
