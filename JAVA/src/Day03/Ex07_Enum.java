@@ -9,13 +9,13 @@ public class Ex07_Enum {
 
 	public static void main(String[] args) {
 		// ENUM(열거타입)
-		// - 요소들을 명명한 값으로 집합을 이루느 자료형
+		// - 요소들을 명명한 값으로 집합을 이루는 자료형
 		// 특징
 		// 1. enum을 비교할 때는 값 뿐만 아니라 타입도 비교한다
 		// 2. enum의 상수값이 재정의되도 다시 컴파일할 필요가 없다
 		
 		// values()		: 열거체의 모든 요소를 배열로 반환
-		Rainbow[] rainbow = Rainbow.values() ;
+		Rainbow[] rainbow = Rainbow.values();
 		
 		for (Rainbow color : rainbow) {
 			System.out.print(color + " ");
