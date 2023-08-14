@@ -9,7 +9,6 @@ public class _1025 {
 		
 		int num = sc.nextInt();
 		int arr[] = new int[5];
-		int data;
 		int arr2[] = {10000,1000,100,10,1};
 		
 		for (int i = 0; i < arr.length; i++) {

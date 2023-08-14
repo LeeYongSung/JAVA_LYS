@@ -1,14 +1,19 @@
-package _1000;
+package _1100;
 
 import java.util.Scanner;
 
-public class _1048 {
+public class _1165 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
 		int b = sc.nextInt();
+		int c = sc.nextInt();
 		
-		System.out.println(a << b);
+		if(a <= 170 && b <= 170 && c <= 170) {
+			System.out.println("CRASH");
+		} else {
+			System.out.println("PASS");
+		}
 		sc.close();
 	}
 }

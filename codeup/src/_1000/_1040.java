@@ -8,5 +8,6 @@ public class _1040 {
 		long num = sc.nextLong();
 		
 		System.out.println(-num);
+		sc.close();
 	}
 }

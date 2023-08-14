@@ -8,5 +8,7 @@ public class _1033 {
 		int a = sc.nextInt();
 		
 		System.out.printf("%X", a);
+		
+		sc.close();
 	}
 }

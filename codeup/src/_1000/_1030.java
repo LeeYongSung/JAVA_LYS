@@ -8,5 +8,7 @@ public class _1030 {
 		long a = sc.nextLong();
 		
 		System.out.println(a);
+		
+		sc.close();
 	}
 }

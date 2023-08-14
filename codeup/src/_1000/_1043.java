@@ -11,5 +11,6 @@ public class _1043 {
 		long a = num1%num2;
 		
 		System.out.println(a);
+		sc.close();
 	}
 }

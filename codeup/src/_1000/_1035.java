@@ -13,5 +13,7 @@ public class _1035 {
 		
 		
 		System.out.println(text2);
+		
+		sc.close();
 	}
 }

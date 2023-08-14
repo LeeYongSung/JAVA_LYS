@@ -14,5 +14,6 @@ public class _1045 {
 		System.out.println(a/b);
 		System.out.println(a%b);
 		System.out.printf("%.2f", (float)a/b);
+		sc.close();
 	}
 }

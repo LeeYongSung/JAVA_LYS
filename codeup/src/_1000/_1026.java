@@ -8,5 +8,7 @@ public class _1026 {
 		String[] text = sc.next().split(":");
 		int a = Integer.parseInt(text[1]);
 		System.out.printf("%1d", a);
+		
+		sc.close();
 	}
 }

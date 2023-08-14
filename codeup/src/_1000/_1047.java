@@ -8,5 +8,6 @@ public class _1047 {
 		int a = sc.nextInt();
 		
 		System.out.println(a << 1);
+		sc.close();
 	}
 }

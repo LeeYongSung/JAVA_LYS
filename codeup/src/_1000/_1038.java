@@ -9,5 +9,6 @@ public class _1038 {
 		long num2 = sc.nextInt();
 		
 		System.out.println(num + num2);
+		sc.close();
 	}
 }

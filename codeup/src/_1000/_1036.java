@@ -8,5 +8,7 @@ public class _1036 {
 		char text = sc.next().charAt(0);
 		
 		System.out.println((int)text);
+		
+		sc.close();
 	}
 }

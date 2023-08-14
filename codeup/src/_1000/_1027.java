@@ -12,5 +12,7 @@ public class _1027 {
 		text = str2.split("\\.");
 		
 		System.out.println(text[2] + "-" + text[1] + "-" + text[0]);
+		
+		sc.close();
 	}
 }

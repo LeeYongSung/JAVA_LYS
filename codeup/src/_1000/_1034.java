@@ -8,5 +8,7 @@ public class _1034 {
 		int a = Integer.valueOf(sc.next(), 8);
 		
 		System.out.println(a);
+		
+		sc.close();
 	}
 }

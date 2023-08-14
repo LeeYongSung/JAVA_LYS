@@ -1,14 +1,16 @@
-package _1000;
+package _1100;
 
 import java.util.Scanner;
 
-public class _1044 {
+public class _1151 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		int N = sc.nextInt();
 		
-		long a = sc.nextInt();
+		if(N < 10) {
+			System.out.println("small");
+		}
 		
-		System.out.println(++a);
 		sc.close();
 	}
 }

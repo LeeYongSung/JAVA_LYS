@@ -11,5 +11,6 @@ public class _1046 {
 		
 		System.out.println(a+b+c);
 		System.out.printf("%.1f", (float)(a+b+c)/3);
+		sc.close();
 	}
 }
