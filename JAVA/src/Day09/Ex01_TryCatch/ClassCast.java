@@ -28,8 +28,8 @@ public class ClassCast {
 		Dog dog = new Dog();
 		changeToDog(dog);
 		
-		Cat cat = new Cat();
-		changeToDog(cat);
+//		Cat cat = new Cat();
+//		changeToDog(cat);
 		
 	}
 }

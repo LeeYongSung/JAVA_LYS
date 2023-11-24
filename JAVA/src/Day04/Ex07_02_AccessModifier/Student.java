@@ -7,12 +7,10 @@ public class Student extends Person {
 	// 생성자
 	public Student() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	public Student(String name, int height, int age, int weight) {
 		super(name, height, age, weight);
-		// TODO Auto-generated constructor stub
 	}
 	
 	public void defaultSetting() {

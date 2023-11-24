@@ -20,6 +20,7 @@ public class A {
 	}
 	
 	public void aMethod() {
+		B b = new B();
 		System.out.println("아우터 클래스에서 이너 클래스의 멤버에 접근불가");
 		// (에러) System.out.println("B의 x : " + x);
 		// (에러) System.out.println("B의 y : " + y);

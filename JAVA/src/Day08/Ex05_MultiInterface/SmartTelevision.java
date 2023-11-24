@@ -4,10 +4,10 @@ package Day08.Ex05_MultiInterface;
 // public class 클래스명 implements 인터페이스A, 인터페이스B ... { }
 public class SmartTelevision implements SmartRemoteControl, Searchable{
 
-	int volume;			// 볼륨
-	int channel;		// 채널 번호
-	String keyword;		// 검색어
-	int x, y;			// 터치패드 좌표
+	int volume;			// 볼륨 ( MicroPhone, RemoteControl)
+	int channel;		// 채널 번호 (Searchable)
+	String keyword;		// 검색어 (Searchable)
+	int x, y;			// 터치패드 좌표 (SmartRemoteControl)
 	
 	@Override
 	public void turnOn() {

@@ -23,7 +23,4 @@ public abstract class Shape {
 	public void setPoint(Point point) {
 		this.point = point;
 	}
-	
-	
-	
 }

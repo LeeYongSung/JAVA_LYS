@@ -42,9 +42,9 @@ public class DateEx {
 		
 		// Date 객체의 getXXX() 메소드는 deprecated(더 이상 사용권장 안함)
 		// --> 날짜의 년/월/일 추출하는 기능은 Calendar 클래스에서 주로 사용
-		System.out.println("Todya (년) : " + date1.getYear());
-		System.out.println("Todya (월) : " + date1.getMonth());
-		System.out.println("Todya (일) : " + date1.getDate());
+		System.out.println("Today (년) : " + date1.getYear());
+		System.out.println("Today (월) : " + date1.getMonth());
+		System.out.println("Today (일) : " + date1.getDate());
 		
 		Date today = new Date();
 		System.out.println("오늘 : " + today);

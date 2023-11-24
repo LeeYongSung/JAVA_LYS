@@ -42,13 +42,13 @@ public class MultiCatch {
 		// : 하나의 catch 블록에서 처리하고 싶은 예외를 | 기호로 연결하여 사용한다.
 		catch (ArrayIndexOutOfBoundsException | NumberFormatException e) {
 			System.err.println("접근할 수 없는 배열 index 범위입니다.");
-			System.err.println("숫자로 변환할 수 없는 값입니다. (문자를 입력한 경우");
+			System.err.println("숫자로 변환할 수 없는 값입니다. (문자를 입력한 경우)");
 		}
 		// 다중 catch
 		// : 여러 예외를 각각 다른 catch 블록으로 처리하는 것
 		// * 상위 예외클래스가 하위 예외 클래스보다 아래쪽에 위치해야한다.
 		catch (Exception e) {
-			 System.err.println("이 외의 알 수 없느 예외 발생");
+			 System.err.println("이 외의 알 수 없는 예외 발생");
 		 }
 		
 		sc.close();

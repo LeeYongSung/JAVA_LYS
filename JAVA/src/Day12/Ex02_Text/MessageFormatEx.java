@@ -21,7 +21,7 @@ public class MessageFormatEx {
 		System.out.println(login);
 		System.out.println();
 		
-		String[] studentInfo = {"김조은", "24학번", "컴퓨터공학과", "20살"};
+		String[] studentInfo = {"홍길동", "24학번", "컴퓨터공학과", "20살"};
 		String studentFormat = "이름 : {0} \n"
 							 + "학번 : {1} \n"
 							 + "전공 : {2} \n"

@@ -17,6 +17,5 @@ public class I {
 	void method() {
 		j.method1();
 		j.method2();
-		System.out.println("aaaa");
 	}
 }

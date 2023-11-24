@@ -7,7 +7,7 @@ public class DivideByZero {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		int a;				// 페제수 - 나누어지는 수
+		int a;				// 피제수 - 나누어지는 수
 		int b;				// 제수 - 나누는 수
 		
 		System.out.print("a : ");
