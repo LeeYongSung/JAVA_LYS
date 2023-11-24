@@ -38,3 +38,9 @@ replay_pid*
 .setup
 .dll
 LICENSE
+./metadata
+./metadata/
+./bin
+./bin/
+./lib
+./lib/
